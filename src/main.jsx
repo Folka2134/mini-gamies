@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Trivia from "./components/Trivia.jsx";
-import WordSearch from "./components/WordSearch.jsx";
-import Tictactoe from "./components/Tictactoe.jsx";
-import CardMatch from "./components/CardMatch.jsx";
+import Trivia from "./components/trivia/Trivia.jsx";
+import WordSearch from "./components/wordsearch/WordSearch.jsx";
+import Tictactoe from "./components/tictactoe/Tictactoe.jsx";
+import CardMatch from "./components/cardmatch/CardMatch.jsx";
 
 import App from "./App.jsx";
 import "./index.css";
